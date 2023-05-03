@@ -199,71 +199,13 @@ let coursesAndDurationArray = [
 ];
 console.log(coursesAndDurationArray);
 
-let JavaScriptComplex = 5;
-if (JavaScriptComplex > 5) {
-    alert('super');
-    console.log('super')
-}
-else {
-    alert('error');
-    console.log('error')
-}
+coursesAndDurationArray.forEach(course => {
+    if (course.monthDuration > 5) {
+        console.log(`Супер - ${course.title}`);
+    }
+});
 
 
-let JavaComplex = 6;
-if (JavaComplex > 5) {
-    alert('super');
-    console.log('super')
-}
-else {
-    alert('error');
-    console.log('error')
-}
-
-
-let PythonComplex = 6;
-if (PythonComplex > 5) {
-    alert('super');
-    console.log('super')
-}
-else {
-    alert('error');
-    console.log('error')
-}
-
-
-
-let QAComplex = 4;
-if (QAComplex > 5) {
-    alert('super');
-    console.log('super')
-}
-else {
-    alert('error');
-    console.log('error')
-}
-
-
-let FullStack = 7;
-if (FullStack > 5) {
-    alert('super');
-    console.log('super')
-}
-else {
-    alert('error');
-    console.log('error')
-}
-
-
-let Frontend = 4;
-if (Frontend > 5) {
-    alert('super');
-    console.log('super')
-}
-else {
-    alert('error');
-    console.log('error')
-}
 
 
 
