@@ -223,5 +223,4 @@ let exchangedSum = exchange(sumUAH, currencyValues, exchangeCurrency);
 console.log(exchangedSum);
 
 
-
-
+// ...
